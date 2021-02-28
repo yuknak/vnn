@@ -4,7 +4,7 @@ class AggregateJob < ApplicationJob
   def perform(*_args)
     # require 'byebug'; byebug
     #jobLogger.info '*** start aggregate ***'
-    Snn::Mirror.test3()
+    Vnn::Mirror.test3()
   end
   
 end

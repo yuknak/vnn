@@ -19,7 +19,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Snn
+module Vnn
   class Application < Rails::Application
 
     config.autoload_paths += %W(#{config.root}/lib)

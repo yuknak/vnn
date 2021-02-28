@@ -1,4 +1,4 @@
-package biz.tetraserve.snncli;
+package biz.tetraserve.vnncli;
 
 import android.app.Application;
 import android.content.Context;

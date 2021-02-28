@@ -1,7 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.hosts << ".supernn.net"
+  config.hosts << ".vietnn.com"
   config.hosts << ".tetraserve.biz"
   config.hosts << ".tetraserve.local"
   #config.hosts.clear
@@ -64,7 +64,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "snn_production"
+  # config.active_job.queue_name_prefix = "vnn_production"
 
   config.action_mailer.perform_caching = false
 

@@ -1,7 +1,7 @@
 require 'kconv'
 require 'open-uri'
 
-module Snn
+module Vnn
 
   class Mirror
 
