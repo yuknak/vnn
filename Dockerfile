@@ -1,8 +1,8 @@
 # Base code is from peatio by yn
 
-# docker build . -t yuknak/snn
-# docker push yuknak/snn
-# docker build . -t yuknak/snn --build-arg RAILS_ENV=development
+# docker build . -t yuknak/vnn
+# docker push yuknak/vnn
+# docker build . -t yuknak/vnn --build-arg RAILS_ENV=development
 
 FROM ruby:2.7.2 as base
 
@@ -67,10 +67,10 @@ RUN bundle exec rake tmp:create \
 # Warning) Only in development mode,
 # Set config.webpacker.check_yarn_integrity = false in config/webpacker.yml
 
-# Expose port 3001 to the Docker host, so we can access it from the outside.
-EXPOSE 3001
+# Expose port 3004 to the Docker host, so we can access it from the outside.
+EXPOSE 3004
 
 # The main command to run when the container starts.
-ENV PORT 3001
+ENV PORT 3004
 
 CMD bundle exec crono start && bundle exec puma --config config/puma.rb

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* snncliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* snncliTests.m */; };
+		00E356F31AD99517003FC87E /* vnncliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vnncliTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -28,14 +28,14 @@
 		20C7E3372580D4BD00B620CB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C7E3272580D4BD00B620CB /* EvilIcons.ttf */; };
 		20C7E3382580D4BD00B620CB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C7E3282580D4BD00B620CB /* SimpleLineIcons.ttf */; };
 		20C7E3392580D4BD00B620CB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C7E3292580D4BD00B620CB /* MaterialIcons.ttf */; };
-		22093F366461B8A2743178E4 /* libPods-snncli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D553DC38E0FA55A992AA882 /* libPods-snncli.a */; };
+		22093F366461B8A2743178E4 /* libPods-vnncli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D553DC38E0FA55A992AA882 /* libPods-vnncli.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* snncliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* snncliTests.m */; };
-		3E0DF32039A926CFE43C0180 /* libPods-snncli-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADAF699248474DFCACA87B4 /* libPods-snncli-tvOS.a */; };
-		5CC9BEC0A61EC887829645B7 /* libPods-snncli-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6F45939702BBFEAE3EBFFB /* libPods-snncli-tvOSTests.a */; };
-		951578E3806458FC8457EED4 /* libPods-snncliTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E81CBB8B34D6FE5E226FDEBC /* libPods-snncliTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* vnncliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vnncliTests.m */; };
+		3E0DF32039A926CFE43C0180 /* libPods-vnncli-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADAF699248474DFCACA87B4 /* libPods-vnncli-tvOS.a */; };
+		5CC9BEC0A61EC887829645B7 /* libPods-vnncli-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6F45939702BBFEAE3EBFFB /* libPods-vnncli-tvOSTests.a */; };
+		951578E3806458FC8457EED4 /* libPods-vnncliTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E81CBB8B34D6FE5E226FDEBC /* libPods-vnncliTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,30 +44,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = snncli;
+			remoteInfo = vnncli;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "snncli-tvOS";
+			remoteInfo = "vnncli-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* snncliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snncliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* vnncliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vnncliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* snncliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snncliTests.m; sourceTree = "<group>"; };
-		0ADAF699248474DFCACA87B4 /* libPods-snncli-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-snncli-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* snncli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snncli.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = snncli/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = snncli/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* vnncliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vnncliTests.m; sourceTree = "<group>"; };
+		0ADAF699248474DFCACA87B4 /* libPods-vnncli-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vnncli-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* vnncli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vnncli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vnncli/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vnncli/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = snncli/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = snncli/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = snncli/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vnncli/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vnncli/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vnncli/main.m; sourceTree = "<group>"; };
 		20C7E31A2580D4BD00B620CB /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		20C7E31B2580D4BD00B620CB /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		20C7E31C2580D4BD00B620CB /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -84,19 +84,19 @@
 		20C7E3272580D4BD00B620CB /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		20C7E3282580D4BD00B620CB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		20C7E3292580D4BD00B620CB /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* snncli-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snncli-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* snncli-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snncli-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51316173AD58910A4031EF4F /* Pods-snncli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli.debug.xcconfig"; path = "Target Support Files/Pods-snncli/Pods-snncli.debug.xcconfig"; sourceTree = "<group>"; };
-		5B6F45939702BBFEAE3EBFFB /* libPods-snncli-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-snncli-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6794C7A6EA3025845866CFAE /* Pods-snncli-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-snncli-tvOSTests/Pods-snncli-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6C0B3EA6AEA241DA1E18DAC2 /* Pods-snncli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli.release.xcconfig"; path = "Target Support Files/Pods-snncli/Pods-snncli.release.xcconfig"; sourceTree = "<group>"; };
-		6D553DC38E0FA55A992AA882 /* libPods-snncli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-snncli.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89840606819A522B6F64DE29 /* Pods-snncli-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-snncli-tvOS/Pods-snncli-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9F2B8557659390EFCB8A9762 /* Pods-snncli-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-snncli-tvOSTests/Pods-snncli-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A70486CE1371FBA4BA61934B /* Pods-snncliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncliTests.debug.xcconfig"; path = "Target Support Files/Pods-snncliTests/Pods-snncliTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A91CA7DCCBD2DD179DEA4BE8 /* Pods-snncli-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncli-tvOS.release.xcconfig"; path = "Target Support Files/Pods-snncli-tvOS/Pods-snncli-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C981A9774288800511EC37F2 /* Pods-snncliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snncliTests.release.xcconfig"; path = "Target Support Files/Pods-snncliTests/Pods-snncliTests.release.xcconfig"; sourceTree = "<group>"; };
-		E81CBB8B34D6FE5E226FDEBC /* libPods-snncliTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-snncliTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* vnncli-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vnncli-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* vnncli-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vnncli-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51316173AD58910A4031EF4F /* Pods-vnncli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli.debug.xcconfig"; path = "Target Support Files/Pods-vnncli/Pods-vnncli.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6F45939702BBFEAE3EBFFB /* libPods-vnncli-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vnncli-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6794C7A6EA3025845866CFAE /* Pods-vnncli-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-vnncli-tvOSTests/Pods-vnncli-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C0B3EA6AEA241DA1E18DAC2 /* Pods-vnncli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli.release.xcconfig"; path = "Target Support Files/Pods-vnncli/Pods-vnncli.release.xcconfig"; sourceTree = "<group>"; };
+		6D553DC38E0FA55A992AA882 /* libPods-vnncli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vnncli.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89840606819A522B6F64DE29 /* Pods-vnncli-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-vnncli-tvOS/Pods-vnncli-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9F2B8557659390EFCB8A9762 /* Pods-vnncli-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-vnncli-tvOSTests/Pods-vnncli-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A70486CE1371FBA4BA61934B /* Pods-vnncliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncliTests.debug.xcconfig"; path = "Target Support Files/Pods-vnncliTests/Pods-vnncliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A91CA7DCCBD2DD179DEA4BE8 /* Pods-vnncli-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncli-tvOS.release.xcconfig"; path = "Target Support Files/Pods-vnncli-tvOS/Pods-vnncli-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C981A9774288800511EC37F2 /* Pods-vnncliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vnncliTests.release.xcconfig"; path = "Target Support Files/Pods-vnncliTests/Pods-vnncliTests.release.xcconfig"; sourceTree = "<group>"; };
+		E81CBB8B34D6FE5E226FDEBC /* libPods-vnncliTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vnncliTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951578E3806458FC8457EED4 /* libPods-snncliTests.a in Frameworks */,
+				951578E3806458FC8457EED4 /* libPods-vnncliTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22093F366461B8A2743178E4 /* libPods-snncli.a in Frameworks */,
+				22093F366461B8A2743178E4 /* libPods-vnncli.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0DF32039A926CFE43C0180 /* libPods-snncli-tvOS.a in Frameworks */,
+				3E0DF32039A926CFE43C0180 /* libPods-vnncli-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC9BEC0A61EC887829645B7 /* libPods-snncli-tvOSTests.a in Frameworks */,
+				5CC9BEC0A61EC887829645B7 /* libPods-vnncli-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* snncliTests */ = {
+		00E356EF1AD99517003FC87E /* vnncliTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* snncliTests.m */,
+				00E356F21AD99517003FC87E /* vnncliTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = snncliTests;
+			path = vnncliTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* snncli */ = {
+		13B07FAE1A68108700A75B9A /* vnncli */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -165,20 +165,20 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = snncli;
+			name = vnncli;
 			sourceTree = "<group>";
 		};
 		1F16CF418DF7F42180F475C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51316173AD58910A4031EF4F /* Pods-snncli.debug.xcconfig */,
-				6C0B3EA6AEA241DA1E18DAC2 /* Pods-snncli.release.xcconfig */,
-				89840606819A522B6F64DE29 /* Pods-snncli-tvOS.debug.xcconfig */,
-				A91CA7DCCBD2DD179DEA4BE8 /* Pods-snncli-tvOS.release.xcconfig */,
-				9F2B8557659390EFCB8A9762 /* Pods-snncli-tvOSTests.debug.xcconfig */,
-				6794C7A6EA3025845866CFAE /* Pods-snncli-tvOSTests.release.xcconfig */,
-				A70486CE1371FBA4BA61934B /* Pods-snncliTests.debug.xcconfig */,
-				C981A9774288800511EC37F2 /* Pods-snncliTests.release.xcconfig */,
+				51316173AD58910A4031EF4F /* Pods-vnncli.debug.xcconfig */,
+				6C0B3EA6AEA241DA1E18DAC2 /* Pods-vnncli.release.xcconfig */,
+				89840606819A522B6F64DE29 /* Pods-vnncli-tvOS.debug.xcconfig */,
+				A91CA7DCCBD2DD179DEA4BE8 /* Pods-vnncli-tvOS.release.xcconfig */,
+				9F2B8557659390EFCB8A9762 /* Pods-vnncli-tvOSTests.debug.xcconfig */,
+				6794C7A6EA3025845866CFAE /* Pods-vnncli-tvOSTests.release.xcconfig */,
+				A70486CE1371FBA4BA61934B /* Pods-vnncliTests.debug.xcconfig */,
+				C981A9774288800511EC37F2 /* Pods-vnncliTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -212,10 +212,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6D553DC38E0FA55A992AA882 /* libPods-snncli.a */,
-				0ADAF699248474DFCACA87B4 /* libPods-snncli-tvOS.a */,
-				5B6F45939702BBFEAE3EBFFB /* libPods-snncli-tvOSTests.a */,
-				E81CBB8B34D6FE5E226FDEBC /* libPods-snncliTests.a */,
+				6D553DC38E0FA55A992AA882 /* libPods-vnncli.a */,
+				0ADAF699248474DFCACA87B4 /* libPods-vnncli-tvOS.a */,
+				5B6F45939702BBFEAE3EBFFB /* libPods-vnncli-tvOSTests.a */,
+				E81CBB8B34D6FE5E226FDEBC /* libPods-vnncliTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,9 +231,9 @@
 			isa = PBXGroup;
 			children = (
 				20C7E3192580D4BD00B620CB /* Fonts */,
-				13B07FAE1A68108700A75B9A /* snncli */,
+				13B07FAE1A68108700A75B9A /* vnncli */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* snncliTests */,
+				00E356EF1AD99517003FC87E /* vnncliTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1F16CF418DF7F42180F475C6 /* Pods */,
@@ -246,10 +246,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* snncli.app */,
-				00E356EE1AD99517003FC87E /* snncliTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* snncli-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* snncli-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* vnncli.app */,
+				00E356EE1AD99517003FC87E /* vnncliTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* vnncli-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* vnncli-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* snncliTests */ = {
+		00E356ED1AD99517003FC87E /* vnncliTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "snncliTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vnncliTests" */;
 			buildPhases = (
 				B96F54730AFE3227632B61CD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -271,14 +271,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = snncliTests;
-			productName = snncliTests;
-			productReference = 00E356EE1AD99517003FC87E /* snncliTests.xctest */;
+			name = vnncliTests;
+			productName = vnncliTests;
+			productReference = 00E356EE1AD99517003FC87E /* vnncliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* snncli */ = {
+		13B07F861A680F5B00A75B9A /* vnncli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "snncli" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vnncli" */;
 			buildPhases = (
 				4C965BA791CBEBE23435D419 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -291,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = snncli;
-			productName = snncli;
-			productReference = 13B07F961A680F5B00A75B9A /* snncli.app */;
+			name = vnncli;
+			productName = vnncli;
+			productReference = 13B07F961A680F5B00A75B9A /* vnncli.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* snncli-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* vnncli-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "snncli-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vnncli-tvOS" */;
 			buildPhases = (
 				D9536FE8800246C0ECA22329 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -311,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = "snncli-tvOS";
-			productName = "snncli-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* snncli-tvOS.app */;
+			name = "vnncli-tvOS";
+			productName = "vnncli-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* vnncli-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* snncli-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* vnncli-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "snncli-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vnncli-tvOSTests" */;
 			buildPhases = (
 				93F11C2645620B72C8578E6E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -330,9 +330,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "snncli-tvOSTests";
-			productName = "snncli-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* snncli-tvOSTests.xctest */;
+			name = "vnncli-tvOSTests";
+			productName = "vnncli-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* vnncli-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -362,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "snncli" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vnncli" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -376,10 +376,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* snncli */,
-				00E356ED1AD99517003FC87E /* snncliTests */,
-				2D02E47A1E0B4A5D006451C7 /* snncli-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* snncli-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* vnncli */,
+				00E356ED1AD99517003FC87E /* vnncliTests */,
+				2D02E47A1E0B4A5D006451C7 /* vnncli-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* vnncli-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -478,7 +478,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-snncli-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vnncli-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -500,7 +500,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-snncli-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vnncli-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-snncliTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vnncliTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -544,7 +544,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-snncli-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vnncli-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -596,7 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* snncliTests.m in Sources */,
+				00E356F31AD99517003FC87E /* vnncliTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,7 +622,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* snncliTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* vnncliTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,12 +631,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* snncli */;
+			target = 13B07F861A680F5B00A75B9A /* vnncli */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* snncli-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* vnncli-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -648,7 +648,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = snncli;
+			path = vnncli;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -656,14 +656,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70486CE1371FBA4BA61934B /* Pods-snncliTests.debug.xcconfig */;
+			baseConfigurationReference = A70486CE1371FBA4BA61934B /* Pods-vnncliTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = snncliTests/Info.plist;
+				INFOPLIST_FILE = vnncliTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -673,17 +673,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snncli.app/snncli";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vnncli.app/vnncli";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C981A9774288800511EC37F2 /* Pods-snncliTests.release.xcconfig */;
+			baseConfigurationReference = C981A9774288800511EC37F2 /* Pods-vnncliTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = snncliTests/Info.plist;
+				INFOPLIST_FILE = vnncliTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -693,28 +693,28 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snncli.app/snncli";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vnncli.app/vnncli";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51316173AD58910A4031EF4F /* Pods-snncli.debug.xcconfig */;
+			baseConfigurationReference = 51316173AD58910A4031EF4F /* Pods-vnncli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 180;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = SBK2ZVAN9T;
-				INFOPLIST_FILE = snncli/Info.plist;
+				INFOPLIST_FILE = vnncli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = biz.tetraserve.snncli;
-				PRODUCT_NAME = snncli;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.tetraserve.vnncli;
+				PRODUCT_NAME = vnncli;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -722,21 +722,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C0B3EA6AEA241DA1E18DAC2 /* Pods-snncli.release.xcconfig */;
+			baseConfigurationReference = 6C0B3EA6AEA241DA1E18DAC2 /* Pods-vnncli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 180;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SBK2ZVAN9T;
-				INFOPLIST_FILE = snncli/Info.plist;
+				INFOPLIST_FILE = vnncli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = biz.tetraserve.snncli;
-				PRODUCT_NAME = snncli;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.tetraserve.vnncli;
+				PRODUCT_NAME = vnncli;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -744,7 +744,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89840606819A522B6F64DE29 /* Pods-snncli-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 89840606819A522B6F64DE29 /* Pods-vnncli-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -755,14 +755,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "snncli-tvOS/Info.plist";
+				INFOPLIST_FILE = "vnncli-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.snncli-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.vnncli-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -772,7 +772,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A91CA7DCCBD2DD179DEA4BE8 /* Pods-snncli-tvOS.release.xcconfig */;
+			baseConfigurationReference = A91CA7DCCBD2DD179DEA4BE8 /* Pods-vnncli-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -783,14 +783,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "snncli-tvOS/Info.plist";
+				INFOPLIST_FILE = "vnncli-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.snncli-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.vnncli-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -800,7 +800,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2B8557659390EFCB8A9762 /* Pods-snncli-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9F2B8557659390EFCB8A9762 /* Pods-vnncli-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -810,24 +810,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "snncli-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "vnncli-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.snncli-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.vnncli-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snncli-tvOS.app/snncli-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vnncli-tvOS.app/vnncli-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6794C7A6EA3025845866CFAE /* Pods-snncli-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6794C7A6EA3025845866CFAE /* Pods-vnncli-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -837,17 +837,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "snncli-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "vnncli-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.snncli-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.vnncli-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snncli-tvOS.app/snncli-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vnncli-tvOS.app/vnncli-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -954,7 +954,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "snncliTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vnncliTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -963,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "snncli" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vnncli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -972,7 +972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "snncli-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vnncli-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -981,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "snncli-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vnncli-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -990,7 +990,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "snncli" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vnncli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

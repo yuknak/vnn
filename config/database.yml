@@ -19,12 +19,12 @@ default: &default
 
 development:
   <<: *default
-  database: snn_dev
+  database: vnn_dev
 
 test:
   <<: *default
-  database: snn_test
+  database: vnn_test
 
 production:
   <<: *default
-  database: snn_prod
+  database: vnn_prod

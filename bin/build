@@ -9,7 +9,7 @@ def system!(*args)
 end
 
 FileUtils.chdir APP_ROOT do
-  system! 'docker build . -t yuknak/snn:1.0.4'
-  system! 'docker push yuknak/snn:1.0.4'
+  system! 'docker build . -t yuknak/vnn:1.0.1'
+  system! 'docker push yuknak/vnn:1.0.1'
   system! 'git rev-list HEAD --count'
 end

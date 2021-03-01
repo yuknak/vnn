@@ -50,10 +50,10 @@ module V1
 					check = {}
           check[:show_msgbox]=false
           # disable cache by uuid
-          check[:hp_url]="https://snn.tetraserve.biz/index.html?"+SecureRandom.uuid
-          check[:tutorial_url]="https://snn.tetraserve.biz/tutorial.html?"+SecureRandom.uuid
-          check[:privacy_url]="https://snn.tetraserve.biz/contract.html?"+SecureRandom.uuid # -1.0.1 contact.html
-          check[:contract_url]="https://snn.tetraserve.biz/contract.html?"+SecureRandom.uuid # 1.0.3-
+          check[:hp_url]="https://vnn.tetraserve.biz/index.html?"+SecureRandom.uuid
+          check[:tutorial_url]="https://vnn.tetraserve.biz/tutorial.html?"+SecureRandom.uuid
+          check[:privacy_url]="https://vnn.tetraserve.biz/contract.html?"+SecureRandom.uuid # -1.0.1 contact.html
+          check[:contract_url]="https://vnn.tetraserve.biz/contract.html?"+SecureRandom.uuid # 1.0.3-
           
           if (!check[:show_msgbox]) then
             # no notice
@@ -69,9 +69,9 @@ module V1
               'このアプリの新しいバージョンが公開されています.アップデートを行ってください.'
 					  check[:do_redir]=true
             check[:redir_url_ios]=
-              "https://supernn.net/index.html?"+SecureRandom.uuid
+              "https://vietnn.com/index.html?"+SecureRandom.uuid
             check[:redir_url_android]=
-              "https://play.google.com/store/apps/details?id=biz.tetraserve.snncli?"+SecureRandom.uuid
+              "https://play.google.com/store/apps/details?id=biz.tetraserve.vnncli?"+SecureRandom.uuid
           end
           
           pp check

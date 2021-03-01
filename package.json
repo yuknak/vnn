@@ -1,5 +1,5 @@
 {
-  "name": "snn",
+  "name": "vnn",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.12.10",

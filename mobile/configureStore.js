@@ -41,7 +41,7 @@ const encryptor = encryptTransform({
 
 const persistConfig = {
   version: 1,
-  key: 'snncli.root',
+  key: 'vnncli.root',
   storage: AsyncStorage,
   transforms: [encryptor],
   whitelist: ['settingState'],

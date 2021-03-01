@@ -33,7 +33,7 @@ class About extends Component {
       <Button onPress={()=>{
                     this.props.navigation.push("MyWebView",
                       {uri: hp_url()})}}
-                    ><Text>SUPERNNホームページ</Text></Button>
+                    ><Text>VIETNNホームページ</Text></Button>
         ) : null 
     const button2 = contract_url() ? (
       <Button onPress={()=>{
@@ -50,7 +50,7 @@ class About extends Component {
         <Content padder>
           <Card>
             <CardItem header >
-              <Text>SUPERNN 掲示板速報 {version}</Text>
+              <Text>VIETNN 掲示板速報 {version}</Text>
             </CardItem>
             <CardItem bordered>
               <Body>
